@@ -1,16 +1,30 @@
-# React + Vite
+# FreshMart – Online Supermarket
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
+FreshMart is a responsive online supermarket website built with React JS. Users can browse products, search and filter them, add items to a cart, and contact the store through a validated form.
 
-Currently, two official plugins are available:
+## Features
+- Home, Products, About, Contact and Cart pages (React Router)
+- Reusable components with props
+- Shopping cart using Context API and localStorage
+- Search and category filter
+- Contact form with validation
+- Responsive design for mobile, tablet and desktop
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React JS (Vite)
+- JavaScript, HTML, CSS
+- React Router
 
-## React Compiler
+## Installation
+1. Clone or download the repository.
+2. Open the project folder in VS Code.
+3. Run: `npm install`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Running the Application
+Run: `npm run dev`
 
-## Expanding the ESLint configuration
+Then open the link shown in the terminal (usually http://localhost:5173).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo
+https://6af91346b430454f61e17481--frah.netlify.app/
